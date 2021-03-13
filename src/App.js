@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import NavBar from "./components/nav/Navbar";
 import Footer from "./components/footer/Footer";
 import "./styles/styles.scss";
-import GA from "./utils/Analytics";
+//import GA from "./utils/Analytics";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import englishText from "./data/englishText";
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <Router>
-      {GA.init() && <GA.RouteTracker />}
+      {/*   {GA.init() && <GA.RouteTracker />} 8*/}
       <Context.Provider value={{ textContent, handleSwitch }}>
         <NavBar />
         <Switch>
