@@ -1,0 +1,95 @@
+.home {
+  .content {
+    padding: 7vh;
+    .skills {
+      height: 86vh;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: "core core" "tools libraries" "about about";
+      gap: 2rem;
+      text-align: center;
+      .title {
+        padding: 1rem 0;
+      }
+      p {
+        padding: 0.4rem;
+      }
+      .shadow {
+        border-radius: 14px;
+        box-shadow: 10px 10px 24px #282a2b, -10px -10px 24px #383b3d;
+      }
+
+      .core {
+        grid-area: core;
+        i {
+          font-size: 28px;
+          padding: 0.5rem;
+        }
+        p {
+          padding: 0;
+        }
+        .js,
+        .react,
+        .html,
+        .css {
+          width: 50%;
+          display: inline-block;
+          padding: 0.7rem;
+        }
+        .title {
+          padding-bottom: 1rem;
+        }
+      }
+      .about {
+        grid-area: about;
+        p {
+          line-height: 1.3;
+          text-align: justify;
+          padding: 0 10%;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .home {
+    .content {
+      padding: 8vh 3vh;
+      height: 89rem;
+      .skills {
+        .about {
+          p {
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .home {
+    .content {
+      height: 93rem;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .home {
+    .content {
+      padding: 7vh 30vh;
+    }
+  }
+}
+
+@media (min-width: 1650px) {
+  .home {
+    .content {
+      padding: 7vh 50vh;
+    }
+  }
+}

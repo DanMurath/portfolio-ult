@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import "variables";
+@import "nav-footer";
+@import "homeBody";
+@import "portfolio";
+@import "languageToggle";
+@import "skills";
+@import "contact";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $font-colour;
+  font-family: $font;
+}
+body {
+  background-color: $star-colour;
+}

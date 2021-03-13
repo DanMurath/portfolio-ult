@@ -1,0 +1,149 @@
+.projects {
+  height: 100vh;
+  .projects-body {
+    height: 100%;
+    .container {
+      display: flex;
+      justify-content: center;
+      padding: 3rem 0;
+      .p-content {
+        .project-bod {
+          box-shadow: 13px 13px 29px #282a2b, -13px -13px 29px #383b3d;
+          display: flex;
+          flex-direction: column;
+          height: 455px;
+          width: 300px;
+          position: relative;
+          overflow: hidden;
+          align-items: center;
+          margin: 2rem 0;
+          justify-content: center;
+          text-align: center;
+          border-radius: 10px;
+          &:hover {
+            img {
+              right: -100%;
+              filter: brightness(0);
+            }
+            .title {
+              box-shadow: 13px 13px 29px #282a2b, -13px -13px 29px #3a3d3f;
+              .tile-title {
+                background: linear-gradient(to right, #00d2ff, #928dab);
+                background-clip: text;
+                color: transparent;
+              }
+            }
+          }
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            //card is relative, img will fit no matter what
+            position: absolute;
+            border-radius: 10px;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            transition: all 0.5s;
+          }
+          p {
+            padding: 0 20px;
+            text-align: justify;
+            line-height: 1.8;
+          }
+          .xboxE {
+            line-height: 1.6;
+          }
+          .title {
+            position: relative;
+            top: -2rem;
+            padding: 0.5rem 1rem;
+            font-size: 20px;
+            border-radius: 10px;
+            z-index: 1;
+            background-color: $star-colour;
+            transition: all 0.5s;
+            .tile-title {
+              &:hover,
+              &:active {
+                background: linear-gradient(to right, #00d2ff, #928dab);
+                background-clip: text;
+                color: transparent;
+              }
+            }
+          }
+          .links {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            bottom: -2rem;
+          }
+          .background {
+            background-color: $star-colour;
+            padding: 6px 5px;
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 9px 9px 18px #262829, -9px -9px 18px #3a3d3f;
+            &:active {
+              box-shadow: inset 9px 9px 18px #262829,
+                inset -9px -9px 18px #3a3d3f;
+            }
+            a {
+              text-decoration: none;
+              i {
+                padding: 0 5px;
+              }
+              &:hover,
+              &:active {
+                i {
+                  background: linear-gradient(to right, #00d2ff, #928dab);
+                  color: transparent;
+                  background-clip: text;
+                }
+              }
+            }
+          }
+        }
+        .one {
+          object-fit: cover;
+          background-position: center;
+          background-size: 100%;
+        }
+        .two {
+          object-fit: cover;
+          background-position: center;
+          background-size: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .projects {
+    height: 100vh;
+    .projects-body {
+      .container {
+        .p-content {
+          display: flex;
+          flex-direction: row;
+          .project-bod {
+            width: 400px;
+            height: 630px;
+            margin: 10rem 4rem;
+            p {
+              line-height: 4rem;
+            }
+            .xboxE {
+              line-height: 3.5rem;
+            }
+            .title {
+              font-size: 22px;
+              padding: 1rem 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
