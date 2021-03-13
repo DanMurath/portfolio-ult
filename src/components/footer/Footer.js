@@ -15,7 +15,12 @@ const Footer = () => {
     <Reveal>
       <Tween from={{ opacity: 0 }} duration={2} delay={3}>
         <div className="footer">
-          <a href="/" className="footer-resume">
+          <a
+            href="https://drive.google.com/file/d/1e8M45uGVZcZKEedZlHEKkswgtOf4vUdC/view?usp=sharinig"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-resume"
+          >
             {textContent.footer.resume}
           </a>
           <div className="socials">

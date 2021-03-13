@@ -15,7 +15,7 @@ const englishText = {
   },
   about: {
     title: "About me",
-    description: `I'm 19 years old and born in Cardiff, blessed with the opportunity to create and build. Throughout my life, I've always had a feel for constructing ideas and wanting to forge them to reality. During the pandemic, I discovered this craftmanship in what we call Software Development. These tools in what we call languages that we use to produce whatever we want. Never in my life have I ever been intruiged by such concept, and therefore initiated my passion for it. Another passion of mine is sport. I'm an Athlete who competed for Wales on several occassions pre-pandemic. I don't play video games much anymore but could still probably beat you. I'm also interested in space, psychology, neuroscience, music...the list goes on. If you made it this far, thank you very much. Send me an email (bottom right),  I would love to talk!`,
+    description: `I'm 19 years old and born in Cardiff, blessed with the opportunity to create and build. Throughout my life, I've always had a feel for constructing ideas and wanting to forge them to reality. During the pandemic, I discovered this craftmanship in what we call Software Development. These tools in what we call languages that we use to produce whatever we want. Never in my life have I ever been intruiged by such concept, and therefore initiated my passion for it. Another passion of mine is sport. I'm an Athlete who competed for Wales on several occassions pre-pandemic. I don't play video games much anymore but could still probably beat you. I'm also interested in space, psychology, neuroscience, music...the list goes on. If you made it this far, thank you very much. Send me an email (bottom right) or go to the contact page, I would love to talk!`,
   },
   projects: {
     xbox: "Xbox Clone",
@@ -33,6 +33,26 @@ const englishText = {
     tools: "Tools",
     lib: "Libraries",
     fra: "Frameworks",
+  },
+  contact: {
+    one: "Woah, ",
+    two: `you really made it this far...`,
+    three: `Let me know what you liked`,
+    four: `/disliked`,
+    five: `or if you just want to chat, `,
+    six: `just fill in the form `,
+    seven: `and I'll get back to you `,
+    eight: `ASAP.`,
+    name: "name",
+    email: "email@something.com",
+    message: "message",
+    send: "Send",
+  },
+  thanks: {
+    one: "Thank ",
+    two: "you.",
+    three: "I will be in touch soon!",
+    four: "- Dan",
   },
 };
 

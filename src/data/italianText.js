@@ -8,7 +8,9 @@ const italianText = {
     resume: "Sommario",
   },
   home: {
-    intro: `Ciao. Mi chiamo Daniele Murathodzic, e sono un aspirante sviluppatore.`,
+    one: `Ciao.`,
+    two: `Mi chiamo Daniele Murathodzic,`,
+    three: `e sono un aspirante sviluppatore.`,
     work: `Guarda il mio lavoro`,
   },
   about: {
@@ -32,6 +34,26 @@ const italianText = {
     tools: "Utensili",
     lib: "Biblioteche",
     fra: "Quadri",
+  },
+  contact: {
+    one: "Wow, ",
+    two: `sei davvero arrivato cosi lontano...`,
+    three: `Fammi sapere cosa ti e piacuito `,
+    four: `/ non ti e piacuito`,
+    five: `o se vuoi solo parlare, `,
+    six: `compila il modulo `,
+    seven: `e ti ricontattero `,
+    eight: `PRIMA POSSIBILE.`,
+    name: "nome",
+    email: "e-mail@qualcosa.com",
+    message: "messaggio",
+    send: "Spedire",
+  },
+  thanks: {
+    one: "Grazie ",
+    two: "mille.",
+    three: "Mi metterò in contatto presto!",
+    four: "- Daniele",
   },
 };
 
