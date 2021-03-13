@@ -15,7 +15,7 @@ const Footer = () => {
     <Reveal>
       <Tween from={{ opacity: 0 }} duration={2} delay={3}>
         <div className="footer">
-          <a href="#" className="footer-resume">
+          <a href="/" className="footer-resume">
             {textContent.footer.resume}
           </a>
           <div className="socials">
