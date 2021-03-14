@@ -53,6 +53,7 @@ const ContactItems = () => {
             <br />
             {textContent.contact.six}
             <Pause ms={700} />
+            <br />
             {textContent.contact.seven}
             <Pause ms={430} />
             {textContent.contact.eight}
