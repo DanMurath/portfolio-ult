@@ -1,4 +1,4 @@
-import SkillsContent from "../components/skills/SkillsContent";
+import SkillsContent from "../skills/SkillsContent";
 
 const Skills = () => {
   return (

@@ -1,4 +1,4 @@
-import ProjectsBody from "../components/projects/ProjectsBody";
+import ProjectsBody from "../projects/ProjectsBody";
 
 const Projects = () => {
   return (

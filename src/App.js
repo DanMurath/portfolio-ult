@@ -1,7 +1,8 @@
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
-import Contact from "./pages/Contact";
+import Home from "./components/pages/Home";
+import Projects from "./components/pages/Projects";
+import Skills from "./components/pages/Skills";
+import Contact from "./components/pages/Contact";
+import Game from "./components/pages/Game/Game";
 
 import NavBar from "./components/nav/Navbar";
 import Footer from "./components/footer/Footer";
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/game">
+            <Game />
           </Route>
         </Switch>
         <Footer />

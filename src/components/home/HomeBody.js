@@ -6,14 +6,15 @@ import { Link } from "react-router-dom";
 
 const HomeBody = () => {
   const { textContent } = useContext(Context);
-  //const [wind] = useWindupString(textContent.home.intro);
 
   return (
     <div className="home-body">
       <div className="home-intro">
         <Reveal>
           <Tween from={{ opacity: 0 }} duration={3} delay={4.3}>
-            <i className="fas fa-laptop"></i>
+            <Link to="/game" style={{ textDecoration: "none" }}>
+              <i className="fas fa-laptop"></i>
+            </Link>
           </Tween>
         </Reveal>
         <WindupChildren>

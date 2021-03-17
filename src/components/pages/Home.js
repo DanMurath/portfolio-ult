@@ -1,4 +1,4 @@
-import HomeBody from "../components/home/HomeBody";
+import HomeBody from "../home/HomeBody";
 
 const Home = () => {
   return (
